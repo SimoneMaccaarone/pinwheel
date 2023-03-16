@@ -25,6 +25,10 @@ header h1{
     
 }
 
+.img-title{
+    width: 400px;
+    margin-top: 20px;
+}
 /* h1{
     width: 50px;
     align-items: center;
@@ -108,14 +112,15 @@ html, body{
     height: 10.66vw;
     display: flex;
     justify-content: center;
-    border: 1px solid green;
+    border: 3px solid #2385b0;
+    
 }
 
 .arm-text{
     
     width: 10.66vw;
     height: 10.66vw;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     align-items: center;
     justify-content: center;

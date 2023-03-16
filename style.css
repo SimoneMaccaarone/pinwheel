@@ -1,15 +1,31 @@
 *{
     box-sizing: border-box;
+  
+    
+    
+}
+
+.Nomi {
+    color: white;
+    background-color:red;
+}
+
+header h1{
+    text-align: center;
+    font-size: 150px;
 }
 
 html, body{
     margin: 0px;
     padding: 0px;
+    background-color: #f3d426;
+
 }
 
 
 .grid-container{
-    border: 1px solid green;
+    
+    /* border: 1px solid green; */
     width: 100vw;
     height: 100vw;
     display: grid;
@@ -25,14 +41,17 @@ html, body{
 }
 
 .arm{
-    border: 1px solid red;
+    border: 3px solid #0D2C54;
     justify-items: stretch;
+    text-align: center;
 }
 
 .a1{
     grid-area: a1;
     display: flex;
     flex-direction: column;
+    text-align: center;
+
 }
 
 .a2{
@@ -59,9 +78,10 @@ html, body{
 }
 
 .arm-text{
+    
     width: 16.66vw;
     height: 16.66vw;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     align-items: center;
     text-align: center;
@@ -122,4 +142,46 @@ html, body{
     .arm{
         flex-direction: column;
     }
+}
+.John_Lennon{
+    text-align: center;
+    font-size: xx-large;
+    height: 300px;
+    background-color: #00A6ED;
+}
+
+.Paul_McCartney{
+    text-align: center;
+    font-size: xx-large;
+    height: 300px;
+    background-color: #F6511D;
+}
+
+
+
+.George_Harrison{
+    text-align: center;
+    font-size: xx-large;
+    height: 300px;
+    background-color: #7FB800;
+}
+
+
+.Ringo_Starr{
+    text-align: center;
+    font-size: xx-large;
+    height: 300px;
+    background-color: #DFF8EB;
+}
+
+.background{
+    background-image: url(./assets/submarine.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+.home{
+    color: white;
+    background-color: red;
 }

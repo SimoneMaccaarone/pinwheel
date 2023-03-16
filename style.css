@@ -14,8 +14,11 @@
 header h1{
   
     text-align: center;
-    font-size: 130px;
-    font-family: 'Alfa Slab One', cursive;
+    height: 700px;
+    align-items: center;
+
+    /* width: 30px; */
+    /* font-family: 'Alfa Slab One', cursive; */
     flex-wrap: nowrap;
 
 
@@ -221,7 +224,7 @@ html, body{
     background-image: url(./assets/submarine.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed; 
-    background-position: center 220px;
+    background-position: center;
     /* background-size: 100% 100%; */
     /* background-position: buttom ; */
 

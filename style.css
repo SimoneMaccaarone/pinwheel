@@ -25,6 +25,12 @@ header h1{
     
 }
 
+/* h1{
+    width: 50px;
+    align-items: center;
+    text-align: center;
+} */
+
 
 html, body{
     margin: 0px;

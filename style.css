@@ -7,8 +7,8 @@
 }
 
 .Nomi {
-    color: rgb(221, 221, 221);
-    background-color:red;
+    color: rgb(255, 255, 255);
+    background-color:rgba(255, 0, 0, 0.682);
 }
 
 header h1{
@@ -107,6 +107,9 @@ html, body{
     width: 10.66vw;
     height: 10.66vw;
     border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
@@ -225,13 +228,17 @@ html, body{
 }
 
 .home{
-    color: rgb(247, 247, 247);
+    color: rgba(247, 247, 247, 0.552);
     background-color: red;
     text-decoration: none;
+    border-radius: 20px;
+    
 }
 
 a{
     font-family: 'Fugaz One', cursive;
     font-size: 30px;
     text-decoration: none;
+    border-radius: 20px;
+
 }
